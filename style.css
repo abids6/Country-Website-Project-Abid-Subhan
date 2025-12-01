@@ -30,9 +30,9 @@ body {
   background-attachment: fixed;
 }
 
-/* Food page background */
+/* Food page background (PNG version) */
 .food-page {
-  background-image: url("food-bg.jpg");
+  background-image: url("food-bg.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,62 +57,4 @@ header {
   margin-top: 5px;
 }
 
-/* ---------- NAVIGATION ---------- */
-nav {
-  background-color: #333;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;               /* flexbox */
-  justify-content: center;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  display: block;
-  padding: 10px 15px;
-  color: white;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #555;
-}
-
-/* ---------- MAIN CONTENT ---------- */
-main {
-  margin-top: 15px;
-}
-
-/* Space between sections */
-section {
-  margin-bottom: 20px;
-}
-
-/* Cards on the home page */
-.aspect-cards {
-  display: flex;               /* flexbox */
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.aspect-box {
-  flex: 1 1 250px;
-  border: 1px solid #ddd;
-  padding: 10px;
-  background-color: #f7f7f7;
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  text-align: center;
-  padding: 10px;
-  font-size: 0.9em;
-  color: #222;
-}
+/* ---------- NAVIGATIO*
