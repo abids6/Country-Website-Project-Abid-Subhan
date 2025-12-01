@@ -8,7 +8,7 @@ body {
 
 /* Home page background */
 .home-page {
-  background-image: url("images/home-bg.jpg");
+  background-image: url("home-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
 
 /* History page background */
 .history-page {
-  background-image: url("images/history-bg.png");
+  background-image: url("history-bg.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 
 /* Population page background */
 .population-page {
-  background-image: url("images/population-bg.png");
+  background-image: url("population-bg.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -32,7 +32,7 @@ body {
 
 /* Food page background */
 .food-page {
-  background-image: url("images/food-bg.jpg");
+  background-image: url("food-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -95,7 +95,7 @@ section {
   margin-bottom: 20px;
 }
 
-/* Cards for History / Population / Food on home page */
+/* Cards on the home page */
 .aspect-cards {
   display: flex;               /* flexbox */
   flex-wrap: wrap;
