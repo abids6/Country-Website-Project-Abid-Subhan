@@ -1,0 +1,118 @@
+/* ---------- BASIC PAGE STYLES ---------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- BACKGROUNDS FOR EACH PAGE ---------- */
+
+/* Home page background */
+.home-page {
+  background-image: url("images/home-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* History page background */
+.history-page {
+  background-image: url("images/history-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Population page background */
+.population-page {
+  background-image: url("images/population-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Food page background */
+.food-page {
+  background-image: url("images/food-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ---------- WHITE CONTENT BOX ---------- */
+.page-box {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9); /* slightly see-through white */
+  padding: 20px;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  text-align: center;
+  color: #004b3b;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-top: 5px;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;               /* flexbox */
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+  margin-top: 15px;
+}
+
+/* Space between sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Cards for History / Population / Food on home page */
+.aspect-cards {
+  display: flex;               /* flexbox */
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.aspect-box {
+  flex: 1 1 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #222;
+}
