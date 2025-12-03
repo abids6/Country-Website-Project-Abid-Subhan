@@ -1,60 +1,94 @@
-/* ---------- BASIC PAGE STYLES ---------- */
+/* Basic page setup */
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* ---------- BACKGROUNDS FOR EACH PAGE ---------- */
-
-/* Home page background */
+/* Home Page Background */
 .home-page {
-  background-image:("home-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url("home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* History page background */
+/* History Page Background */
 .history-page {
-  background-image: url("history-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url("history-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* Population page background */
+/* Population Page Background */
 .population-page {
-  background-image:("population-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url("population-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* Food page background (PNG version) */
+/* Food Page Background */
 .food-page {
-  background-image: ("food-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url("food-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* ---------- WHITE CONTENT BOX ---------- */
+/* White content box */
 .page-box {
-  max-width: 1000px;
-  margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.9); /* slightly see-through white */
-  padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
-/* ---------- HEADER ---------- */
-header {
-  text-align: center;
-  color: #004b3b;
-  margin-bottom: 10px;
+/* Title styling */
+h1 {
+    text-align: center;
+    margin-top: 0;
 }
 
+/* Subtitle under the title */
 .subtitle {
-  margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* ---------- NAVIGATIO*
+/* Basic navigation list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0 0 20px 0;
+}
+
+/* Navigation list items */
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Navigation links */
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Navigation link hover */
+ul li a:hover {
+    background-color: #555;
+}
+
+/* Paragraph spacing */
+p {
+    line-height: 1.5;
+}
+
+/* Section spacing */
+h2, h3 {
+    margin-top: 20px;
+}
